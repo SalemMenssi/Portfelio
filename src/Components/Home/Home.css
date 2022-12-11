@@ -178,3 +178,18 @@
   transform: rotate(-90deg);
   font-size: 100;
 }
+
+@media only screen and (max-width: 768px) {
+  .home-container img {
+    width: 220px;
+    height: 220px;
+  }
+  .home-container .logo {
+    height: 250px;
+    width: 250px;
+    transform: translate(40px, -165px);
+  }
+  .scroll-down {
+    bottom: 290px;
+  }
+}

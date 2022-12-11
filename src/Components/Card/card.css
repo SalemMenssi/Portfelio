@@ -1,0 +1,67 @@
+.card {
+  width: 300px;
+  height: 300px;
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  position: relative;
+  box-shadow: 20px 20px 50px rgb(0 0 0 / 50%);
+  overflow: hidden;
+  transition: 0.2s;
+}
+.card:hover {
+  height: 450px;
+  border-radius: 15px;
+}
+.card .symbole {
+  width: 180px;
+  height: 140px;
+  transition: 0.3s;
+}
+.card:hover .symbole {
+  transform: translateY(-55%);
+}
+.card .skill-title {
+  font-family: "Inter", sans-serif;
+  color: var(--color-sec);
+  font-weight: bold;
+  letter-spacing: 3px;
+  font-size: 1.6rem;
+  transition: 0.4s;
+  position: absolute;
+  top: 50px;
+}
+.card:hover .skill-title {
+  transform: translateY(-30px);
+}
+.card .content {
+  transform: scale(0);
+  bottom: 0;
+  position: absolute;
+  padding: 30px;
+  opacity: 0;
+  transition: 0.3s;
+}
+.card:hover .content {
+  opacity: 1;
+  transform: scale(1);
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    margin: 30px 0;
+  }
+  .card .skill-title {
+    margin-top: 20px;
+  }
+  .card .symbole {
+    height: 100px;
+  }
+  .card:hover .skill-title {
+    transform: translateY(-40px);
+  }
+}

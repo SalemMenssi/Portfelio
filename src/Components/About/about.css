@@ -1,0 +1,33 @@
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.about-title {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  font-family: "Inter", sans-serif;
+}
+.about-container p {
+  font-size: 1.5rem;
+  line-height: 36px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .about-container p {
+    font-size: 13px;
+    line-height: 30px;
+    width: 70%;
+    transform: translate(32px, 50px);
+  }
+  .button-container {
+    flex-direction: column;
+    transform: translate(32px, 100px);
+  }
+}
