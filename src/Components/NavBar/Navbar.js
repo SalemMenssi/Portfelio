@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import { AiOutlineHome, AiOutlineUser } from "react-icons/ai";
+import { AiOutlineHome, AiOutlineUser, AiFillProject } from "react-icons/ai";
 import { BiMessageRoundedDots } from "react-icons/bi";
 import { BsArrowDownCircle } from "react-icons/bs";
 import { GiSkills } from "react-icons/gi";
@@ -27,11 +27,11 @@ const Navbar = () => {
       <a href="#skills">
         <GiSkills className="icon " onClick={handleNav} />
       </a>
+      <a href="#projects">
+        <AiFillProject className="icon " onClick={handleNav} />
+      </a>
       <a href="#contact">
         <BiMessageRoundedDots className="icon " onClick={handleNav} />
-      </a>
-      <a href="#footer">
-        <BsArrowDownCircle className="icon " onClick={handleNav} />
       </a>
     </div>
   );
