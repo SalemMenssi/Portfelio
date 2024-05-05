@@ -8,19 +8,19 @@ const Skills = () => {
       name: "GAME DEV",
       icon: "game",
       content:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam harum perspiciatis quas ea repellendus architecto itaque perferendis optio aspernatur commodi at quia, beatae deleniti officia necessitatibus amet neque, fugiat eligendi.",
+        "As a Unity game developer, I excel in creating both 2D and 3D games, along with crafting tools and game mechanics. With a proven track record of innovation and creativity, I'm committed to pushing the boundaries of game development.",
     },
     {
       name: "WEB DEV",
       icon: "web",
       content:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam harum perspiciatis quas ea repellendus architecto itaque perferendis optio aspernatur commodi at quia, beatae deleniti officia necessitatibus amet neque, fugiat eligendi.",
+        "As a web developer skilled in React, Node.js, MongoDB, and more, with two years of game development experience, I offer a unique blend of creativity and problem-solving. I'm committed to delivering top-notch web solutions that exceed expectations.",
     },
     {
       name: "MOBILE DEV",
       icon: "mobile",
       content:
-        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magnam harum perspiciatis quas ea repellendus architecto itaque perferendis optio aspernatur commodi at quia, beatae deleniti officia necessitatibus amet neque, fugiat eligendi.",
+        "As a React Native mobile developer, I create apps for Android and iOS with a focus on seamless user experiences. With expertise in cross-platform development, I deliver efficient and innovative solutions tailored to client needs.",
     },
   ];
   return (

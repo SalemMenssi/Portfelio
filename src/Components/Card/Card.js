@@ -15,11 +15,7 @@ const Card = ({ card }) => {
         <FaMobileAlt className="symbole" />
       )}
       <h2 className="skill-title">{card.name}</h2>
-      <p className="content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut, earum nam
-        explicabo officia accusantium eos excepturi quas, cum quis ipsum dicta
-        non culpa officiis ut voluptatum commodi illo natus blanditiis!
-      </p>
+      <p className="content">{card.content}</p>
     </div>
   );
 };
