@@ -14,6 +14,7 @@
 }
 .project:hover .project__thumb::after {
   top: 0;
+  background-color: #000000a6;
 }
 .project:hover .project__snippet {
   margin: 20px 0;
