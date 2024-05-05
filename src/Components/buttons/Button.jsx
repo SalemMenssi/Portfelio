@@ -8,7 +8,7 @@ const Button = () => {
         Learn more
       </a>
       <a
-        href="https://drive.google.com/file/d/1J_6TaSUvHsZeTT7vJjFHIkV7oXuszd0T/view?usp=sharing"
+        href="https://drive.google.com/file/d/1GE8rjQF5okALFVKJWG0YyQ0NbXx5qNdL/view?usp=sharing"
         className="btn sec"
       >
         Resume
